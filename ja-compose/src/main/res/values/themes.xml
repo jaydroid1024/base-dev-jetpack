@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.Basedevjetpack.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Basedevjetpack.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Basedevjetpack.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

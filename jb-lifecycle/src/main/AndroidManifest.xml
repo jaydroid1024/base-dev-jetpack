@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jay.jb_lifecycle" >
+
+    <application android:name=".lifecycle.normal_use.MyLifecycleApplication" >
+        <activity
+            android:name=".lifecycle.lifecycle_ktx.LifecycleKtxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lifecycle.lifecycle_state.LifecycleStateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewmodel.MyViewModelMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".livedata.MyLiveDataMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LifecycleDemoActivity"
+            android:exported="false" />
+
+        <service android:name=".lifecycle.normal_use.MyLifecycleService" />
+        <activity android:name=".lifecycle.normal_use.MyLifecycleActivity" />
+        <activity android:name=".lifecycle.normal_use.MySdkActivity" />
+        <activity android:name=".lifecycle.MyLifecycleMainActivity" />
+    </application>
+
+</manifest>
